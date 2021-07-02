@@ -1,13 +1,12 @@
-#SharedOA, COAL and TypePointer
+# Réplica de Artículo Científico Judging a Type by Its Pointer: Optimizing GPU Virtual Functions
 
-## Software prerequisite
+## Software utilizado
 * Ubuntu 18.04.5 LTS Linux
-* git
 * Python 2.7
 * CUDA 10.1: https://developer.nvidia.com/cuda-10.1-download-archive-base
-* Transform script for COAL and TypePointer: https://github.com/brad-mengchi/asplos_2021_ae
+* Estructuras COAL and TypePointer: https://github.com/brad-mengchi/asplos_2021_ae
 
-## Description
-Shared Object Allocator (SharedOA) is a type-based memory
-allocator that allows objects to make use of inheritance
-and virtual functions to be shared between the CPU and GPU.
+## Directorios a Disposición
+* **SharedOA-main**: Repositorio con los ejemplos simples de cada una de las propuestas del paper: COAL, SharedOA y TypePointer.
+* **asplos21_ae_script-master**: Repositorio adicional con las dependencias y los archivos de shell con instrucciones necesarias de instalarse en primer lugar.
+* **asplos_2021_ae-master**: Repositorio con los ejemplos rescatados del benchmarking utilizado en el artículo científico.
